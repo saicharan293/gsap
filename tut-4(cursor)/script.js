@@ -14,7 +14,6 @@ main.addEventListener('mousemove',function(dets){
 
 img.addEventListener('mouseenter',function(){
     cursor.innerHTML='View More'
-    console.log('image')
     gsap.to(cursor, {
         scale: 2,
         backgroundColor:"#ffffff8a"
@@ -23,7 +22,6 @@ img.addEventListener('mouseenter',function(){
 
 img.addEventListener('mouseleave',function(){
     cursor.innerHTML=''
-    console.log('image')
     gsap.to(cursor, {
         scale: 1,
         backgroundColor:"#fff",
