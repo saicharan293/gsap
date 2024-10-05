@@ -13,9 +13,11 @@ html,body{
 #string{
     height: 200px;
     width: 100%;
-    background-color: rgb(105, 78, 78);
+    background-color: rgb(242, 12, 12);
 }
 
-svg{
-    background-color: blue;
-}
+/* svg {
+    display: block;
+    width: 100vw; 
+    height: 100vh; 
+  } */
